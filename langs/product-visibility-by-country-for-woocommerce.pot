@@ -1,0 +1,1427 @@
+#: includes/alg-wc-pvbc-admin-functions.php:21
+msgid "Afghanistan"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:22
+msgid "&#197;land Islands"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:23
+msgid "Albania"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:24
+msgid "Algeria"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:25
+msgid "Andorra"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:26
+msgid "Angola"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:27
+msgid "Anguilla"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:28
+msgid "Antarctica"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:29
+msgid "Antigua and Barbuda"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:30
+msgid "Argentina"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:31
+msgid "Armenia"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:32
+msgid "Aruba"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:33
+msgid "Australia"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:34
+msgid "Austria"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:35
+msgid "Azerbaijan"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:36
+msgid "Bahamas"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:37
+msgid "Bahrain"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:38
+msgid "Bangladesh"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:39
+msgid "Barbados"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:40
+msgid "Belarus"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:41
+msgid "Belgium"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:42
+msgid "Belau"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:43
+msgid "Belize"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:44
+msgid "Benin"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:45
+msgid "Bermuda"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:46
+msgid "Bhutan"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:47
+msgid "Bolivia"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:48
+msgid "Bonaire, Saint Eustatius and Saba"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:49
+msgid "Bosnia and Herzegovina"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:50
+msgid "Botswana"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:51
+msgid "Bouvet Island"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:52
+msgid "Brazil"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:53
+msgid "British Indian Ocean Territory"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:54
+msgid "British Virgin Islands"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:55
+msgid "Brunei"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:56
+msgid "Bulgaria"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:57
+msgid "Burkina Faso"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:58
+msgid "Burundi"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:59
+msgid "Cambodia"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:60
+msgid "Cameroon"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:61
+msgid "Canada"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:62
+msgid "Cape Verde"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:63
+msgid "Cayman Islands"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:64
+msgid "Central African Republic"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:65
+msgid "Chad"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:66
+msgid "Chile"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:67
+msgid "China"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:68
+msgid "Christmas Island"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:69
+msgid "Cocos (Keeling) Islands"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:70
+msgid "Colombia"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:71
+msgid "Comoros"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:72
+msgid "Congo (Brazzaville)"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:73
+msgid "Congo (Kinshasa)"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:74
+msgid "Cook Islands"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:75
+msgid "Costa Rica"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:76
+msgid "Croatia"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:77
+msgid "Cuba"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:78
+msgid "Cura&Ccedil;ao"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:79
+msgid "Cyprus"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:80
+msgid "Czech Republic"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:81
+msgid "Denmark"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:82
+msgid "Djibouti"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:83
+msgid "Dominica"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:84
+msgid "Dominican Republic"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:85
+msgid "Ecuador"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:86
+msgid "Egypt"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:87
+msgid "El Salvador"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:88
+msgid "Equatorial Guinea"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:89
+msgid "Eritrea"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:90
+msgid "Estonia"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:91
+msgid "Ethiopia"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:92
+msgid "Falkland Islands"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:93
+msgid "Faroe Islands"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:94
+msgid "Fiji"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:95
+msgid "Finland"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:96
+msgid "France"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:97
+msgid "French Guiana"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:98
+msgid "French Polynesia"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:99
+msgid "French Southern Territories"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:100
+msgid "Gabon"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:101
+msgid "Gambia"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:102
+msgid "Georgia"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:103
+msgid "Germany"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:104
+msgid "Ghana"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:105
+msgid "Gibraltar"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:106
+msgid "Greece"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:107
+msgid "Greenland"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:108
+msgid "Grenada"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:109
+msgid "Guadeloupe"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:110
+msgid "Guatemala"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:111
+msgid "Guernsey"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:112
+msgid "Guinea"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:113
+msgid "Guinea-Bissau"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:114
+msgid "Guyana"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:115
+msgid "Haiti"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:116
+msgid "Heard Island and McDonald Islands"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:117
+msgid "Honduras"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:118
+msgid "Hong Kong"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:119
+msgid "Hungary"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:120
+msgid "Iceland"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:121
+msgid "India"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:122
+msgid "Indonesia"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:123
+msgid "Iran"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:124
+msgid "Iraq"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:125
+msgid "Republic of Ireland"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:126
+msgid "Isle of Man"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:127
+msgid "Israel"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:128
+msgid "Italy"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:129
+msgid "Ivory Coast"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:130
+msgid "Jamaica"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:131
+msgid "Japan"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:132
+msgid "Jersey"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:133
+msgid "Jordan"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:134
+msgid "Kazakhstan"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:135
+msgid "Kenya"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:136
+msgid "Kiribati"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:137
+msgid "Kuwait"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:138
+msgid "Kyrgyzstan"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:139
+msgid "Laos"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:140
+msgid "Latvia"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:141
+msgid "Lebanon"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:142
+msgid "Lesotho"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:143
+msgid "Liberia"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:144
+msgid "Libya"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:145
+msgid "Liechtenstein"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:146
+msgid "Lithuania"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:147
+msgid "Luxembourg"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:148
+msgid "Macao S.A.R., China"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:149
+msgid "Macedonia"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:150
+msgid "Madagascar"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:151
+msgid "Malawi"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:152
+msgid "Malaysia"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:153
+msgid "Maldives"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:154
+msgid "Mali"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:155
+msgid "Malta"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:156
+msgid "Marshall Islands"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:157
+msgid "Martinique"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:158
+msgid "Mauritania"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:159
+msgid "Mauritius"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:160
+msgid "Mayotte"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:161
+msgid "Mexico"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:162
+msgid "Micronesia"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:163
+msgid "Moldova"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:164
+msgid "Monaco"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:165
+msgid "Mongolia"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:166
+msgid "Montenegro"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:167
+msgid "Montserrat"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:168
+msgid "Morocco"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:169
+msgid "Mozambique"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:170
+msgid "Myanmar"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:171
+msgid "Namibia"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:172
+msgid "Nauru"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:173
+msgid "Nepal"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:174
+msgid "Netherlands"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:175
+msgid "Netherlands Antilles"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:176
+msgid "New Caledonia"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:177
+msgid "New Zealand"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:178
+msgid "Nicaragua"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:179
+msgid "Niger"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:180
+msgid "Nigeria"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:181
+msgid "Niue"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:182
+msgid "Norfolk Island"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:183
+msgid "North Korea"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:184
+msgid "Norway"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:185
+msgid "Oman"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:186
+msgid "Pakistan"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:187
+msgid "Palestinian Territory"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:188
+msgid "Panama"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:189
+msgid "Papua New Guinea"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:190
+msgid "Paraguay"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:191
+msgid "Peru"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:192
+msgid "Philippines"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:193
+msgid "Pitcairn"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:194
+msgid "Poland"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:195
+msgid "Portugal"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:196
+msgid "Puerto Rico"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:197
+msgid "Qatar"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:198
+msgid "Reunion"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:199
+msgid "Romania"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:200
+msgid "Russia"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:201
+msgid "Rwanda"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:202
+msgid "Saint Barth&eacute;lemy"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:203
+msgid "Saint Helena"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:204
+msgid "Saint Kitts and Nevis"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:205
+msgid "Saint Lucia"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:206
+msgid "Saint Martin (French part)"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:207
+msgid "Saint Martin (Dutch part)"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:208
+msgid "Saint Pierre and Miquelon"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:209
+msgid "Saint Vincent and the Grenadines"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:210
+msgid "San Marino"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:211
+msgid "S&atilde;o Tom&eacute; and Pr&iacute;ncipe"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:212
+msgid "Saudi Arabia"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:213
+msgid "Senegal"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:214
+msgid "Serbia"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:215
+msgid "Seychelles"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:216
+msgid "Sierra Leone"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:217
+msgid "Singapore"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:218
+msgid "Slovakia"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:219
+msgid "Slovenia"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:220
+msgid "Solomon Islands"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:221
+msgid "Somalia"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:222
+msgid "South Africa"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:223
+msgid "South Georgia/Sandwich Islands"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:224
+msgid "South Korea"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:225
+msgid "South Sudan"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:226
+msgid "Spain"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:227
+msgid "Sri Lanka"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:228
+msgid "Sudan"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:229
+msgid "Suriname"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:230
+msgid "Svalbard and Jan Mayen"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:231
+msgid "Swaziland"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:232
+msgid "Sweden"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:233
+msgid "Switzerland"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:234
+msgid "Syria"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:235
+msgid "Taiwan"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:236
+msgid "Tajikistan"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:237
+msgid "Tanzania"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:238
+msgid "Thailand"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:239
+msgid "Timor-Leste"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:240
+msgid "Togo"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:241
+msgid "Tokelau"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:242
+msgid "Tonga"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:243
+msgid "Trinidad and Tobago"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:244
+msgid "Tunisia"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:245
+msgid "Turkey"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:246
+msgid "Turkmenistan"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:247
+msgid "Turks and Caicos Islands"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:248
+msgid "Tuvalu"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:249
+msgid "Uganda"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:250
+msgid "Ukraine"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:251
+msgid "United Arab Emirates"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:252
+msgid "United Kingdom (UK)"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:253
+msgid "United States (US)"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:254
+msgid "Uruguay"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:255
+msgid "Uzbekistan"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:256
+msgid "Vanuatu"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:257
+msgid "Vatican"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:258
+msgid "Venezuela"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:259
+msgid "Vietnam"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:260
+msgid "Wallis and Futuna"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:261
+msgid "Western Sahara"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:262
+msgid "Western Samoa"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:263
+msgid "Yemen"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:264
+msgid "Zambia"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:265
+msgid "Zimbabwe"
+msgstr ""
+
+#: includes/alg-wc-pvbc-admin-functions.php:266
+msgid "European Union"
+msgstr ""
+
+#: includes/class-alg-wc-pvbc-core.php:218
+#: includes/settings/class-alg-wc-pvbc-settings-general.php:147
+#: includes/settings/class-alg-wc-pvbc-settings-general.php:164
+msgid "The product is not available in your country."
+msgstr ""
+
+#: includes/class-alg-wc-pvbc-core.php:249
+msgid "Countries"
+msgstr ""
+
+#: includes/class-alg-wc-pvbc-core.php:328
+#: includes/class-alg-wc-pvbc-core.php:339
+#: includes/class-alg-wc-pvbc-core.php:350
+#, php-format
+msgid "Product #%s is hidden for %s."
+msgstr ""
+
+#: includes/class-alg-wc-pvbc-core.php:329
+msgid "Reason: Filter."
+msgstr ""
+
+#: includes/class-alg-wc-pvbc-core.php:340
+#, php-format
+msgid "Reason: Visible in countries: %s."
+msgstr ""
+
+#: includes/class-alg-wc-pvbc-core.php:351
+#, php-format
+msgid "Reason: Invisible in countries: %s."
+msgstr ""
+
+#: includes/class-alg-wc-pvbc-core.php:359
+#, php-format
+msgid "Product #%s is shown for %s."
+msgstr ""
+
+#: includes/class-alg-wc-pvbc-core.php:360
+#, php-format
+msgid "Visible in countries: %s. Invisible in countries: %s."
+msgstr ""
+
+#: includes/class-alg-wc-pvbc-core.php:361
+#: includes/class-alg-wc-pvbc-core.php:362
+msgid "None"
+msgstr ""
+
+#: includes/settings/class-alg-wc-pvbc-metaboxes.php:36
+#: includes/settings/class-alg-wc-pvbc-settings-general.php:45
+#: includes/settings/class-alg-wc-settings-pvbc.php:24
+msgid "Product Visibility by Country"
+msgstr ""
+
+#: includes/settings/class-alg-wc-pvbc-metaboxes.php:190
+#, php-format
+msgid "Currently selected: %s."
+msgstr ""
+
+#: includes/settings/class-alg-wc-pvbc-metaboxes.php:209
+msgid "Visible in countries"
+msgstr ""
+
+#: includes/settings/class-alg-wc-pvbc-metaboxes.php:210
+#: includes/settings/class-alg-wc-pvbc-metaboxes.php:224
+msgid "If no countries selected - product will be visible in all countries."
+msgstr ""
+
+#: includes/settings/class-alg-wc-pvbc-metaboxes.php:211
+msgid ""
+"If you fill in this option, you don't need to fill in \"Invisible in "
+"countries\" option."
+msgstr ""
+
+#: includes/settings/class-alg-wc-pvbc-metaboxes.php:212
+#: includes/settings/class-alg-wc-pvbc-metaboxes.php:226
+msgid ""
+"Hold Control (Ctrl) key to select/deselect multiple countries. Hold Control "
+"+ A to select all countries."
+msgstr ""
+
+#: includes/settings/class-alg-wc-pvbc-metaboxes.php:223
+msgid "Invisible in countries"
+msgstr ""
+
+#: includes/settings/class-alg-wc-pvbc-metaboxes.php:225
+msgid ""
+"If you fill in this option, you don't need to fill in \"Visible in countries"
+"\" option."
+msgstr ""
+
+#: includes/settings/class-alg-wc-pvbc-settings-admin.php:24
+msgid "Admin"
+msgstr ""
+
+#: includes/settings/class-alg-wc-pvbc-settings-admin.php:37
+msgid "Admin Options"
+msgstr ""
+
+#: includes/settings/class-alg-wc-pvbc-settings-admin.php:42
+msgid "Admin products list column"
+msgstr ""
+
+#: includes/settings/class-alg-wc-pvbc-settings-admin.php:43
+msgid "This will add \"Countries\" column to the admin products list."
+msgstr ""
+
+#: includes/settings/class-alg-wc-pvbc-settings-admin.php:44
+#: includes/settings/class-alg-wc-pvbc-settings-general.php:138
+#: includes/settings/class-alg-wc-pvbc-settings-general.php:155
+msgid "Add"
+msgstr ""
+
+#: includes/settings/class-alg-wc-pvbc-settings-admin.php:50
+msgid "Select box type"
+msgstr ""
+
+#: includes/settings/class-alg-wc-pvbc-settings-admin.php:51
+msgid "Select box type on product's edit page and on term's edit page."
+msgstr ""
+
+#: includes/settings/class-alg-wc-pvbc-settings-admin.php:57
+msgid "Standard"
+msgstr ""
+
+#: includes/settings/class-alg-wc-pvbc-settings-admin.php:58
+msgid "Chosen select"
+msgstr ""
+
+#: includes/settings/class-alg-wc-pvbc-settings-advanced.php:24
+msgid "Advanced"
+msgstr ""
+
+#: includes/settings/class-alg-wc-pvbc-settings-advanced.php:38
+msgid "Advanced Options"
+msgstr ""
+
+#: includes/settings/class-alg-wc-pvbc-settings-advanced.php:43
+msgid "Debug mode"
+msgstr ""
+
+#: includes/settings/class-alg-wc-pvbc-settings-advanced.php:44
+#, php-format
+msgid "This will add log to %s."
+msgstr ""
+
+#: includes/settings/class-alg-wc-pvbc-settings-advanced.php:46
+msgid "WooCommerce > Status > Logs"
+msgstr ""
+
+#: includes/settings/class-alg-wc-pvbc-settings-advanced.php:47
+msgid "Do not enable unless there are any issues with the plugin."
+msgstr ""
+
+#: includes/settings/class-alg-wc-pvbc-settings-advanced.php:48
+#: includes/settings/class-alg-wc-pvbc-settings-advanced.php:90
+#: includes/settings/class-alg-wc-pvbc-settings-advanced.php:97
+#: includes/settings/class-alg-wc-pvbc-settings-general.php:66
+#: includes/settings/class-alg-wc-pvbc-settings-general.php:74
+#: includes/settings/class-alg-wc-pvbc-settings-general.php:82
+#: includes/settings/class-alg-wc-pvbc-settings-general.php:90
+#: includes/settings/class-alg-wc-pvbc-settings-product-terms.php:60
+#: includes/settings/class-alg-wc-pvbc-settings-product-terms.php:70
+msgid "Enable"
+msgstr ""
+
+#: includes/settings/class-alg-wc-pvbc-settings-advanced.php:54
+msgid "Disable URL"
+msgstr ""
+
+#: includes/settings/class-alg-wc-pvbc-settings-advanced.php:55
+msgid "You can disable plugin on some URLs of your site. One URL per line."
+msgstr ""
+
+#: includes/settings/class-alg-wc-pvbc-settings-advanced.php:56
+#: includes/settings/class-alg-wc-pvbc-settings-general.php:99
+msgid "Ignored if empty."
+msgstr ""
+
+#: includes/settings/class-alg-wc-pvbc-settings-advanced.php:57
+#, php-format
+msgid "E.g.: %s"
+msgstr ""
+
+#: includes/settings/class-alg-wc-pvbc-settings-advanced.php:70
+msgid "\"Modify query\" Optimization Options"
+msgstr ""
+
+#: includes/settings/class-alg-wc-pvbc-settings-advanced.php:71
+msgid "Affects \"Modify query\" option only."
+msgstr ""
+
+#: includes/settings/class-alg-wc-pvbc-settings-advanced.php:72
+msgid "Do not change settings unless there are any issues with the plugin."
+msgstr ""
+
+#: includes/settings/class-alg-wc-pvbc-settings-advanced.php:77
+msgid "Queries"
+msgstr ""
+
+#: includes/settings/class-alg-wc-pvbc-settings-advanced.php:83
+msgid "Check main query only"
+msgstr ""
+
+#: includes/settings/class-alg-wc-pvbc-settings-advanced.php:84
+msgid "Check main and search queries only"
+msgstr ""
+
+#: includes/settings/class-alg-wc-pvbc-settings-advanced.php:85
+msgid "Check all queries"
+msgstr ""
+
+#: includes/settings/class-alg-wc-pvbc-settings-advanced.php:89
+msgid "Check post type"
+msgstr ""
+
+#: includes/settings/class-alg-wc-pvbc-settings-advanced.php:96
+msgid "Use simple redirect"
+msgstr ""
+
+#: includes/settings/class-alg-wc-pvbc-settings-general.php:24
+msgid "General"
+msgstr ""
+
+#: includes/settings/class-alg-wc-pvbc-settings-general.php:37
+msgid "Product Visibility by Country Options"
+msgstr ""
+
+#: includes/settings/class-alg-wc-pvbc-settings-general.php:40
+#, php-format
+msgid ""
+"Please note that if you have any <strong>caching</strong> plugins installed, "
+"you will need to set \"Geolocate (with caching support)\" option to "
+"\"Default customer location\" in %s."
+msgstr ""
+
+#: includes/settings/class-alg-wc-pvbc-settings-general.php:42
+msgid "WooCommerce > Settings > General"
+msgstr ""
+
+#: includes/settings/class-alg-wc-pvbc-settings-general.php:46
+msgid "Enable plugin"
+msgstr ""
+
+#: includes/settings/class-alg-wc-pvbc-settings-general.php:58
+msgid "General Options"
+msgstr ""
+
+#: includes/settings/class-alg-wc-pvbc-settings-general.php:59
+msgid ""
+"To set countries for each product, check \"Product Visibility by Country\" "
+"meta box on each product's edit page."
+msgstr ""
+
+#: includes/settings/class-alg-wc-pvbc-settings-general.php:64
+msgid "Hide catalog visibility"
+msgstr ""
+
+#: includes/settings/class-alg-wc-pvbc-settings-general.php:65
+msgid ""
+"This will hide selected products in shop and search results. However product "
+"still will be accessible via direct link."
+msgstr ""
+
+#: includes/settings/class-alg-wc-pvbc-settings-general.php:72
+msgid "Make non-purchasable"
+msgstr ""
+
+#: includes/settings/class-alg-wc-pvbc-settings-general.php:73
+msgid ""
+"This will make selected products non-purchasable (i.e. product can't be "
+"added to the cart)."
+msgstr ""
+
+#: includes/settings/class-alg-wc-pvbc-settings-general.php:80
+msgid "Hide visibility in \"WooCommerce Blocks\""
+msgstr ""
+
+#: includes/settings/class-alg-wc-pvbc-settings-general.php:81
+msgid ""
+"This will hide selected products in blocks created with \"WooCommerce Blocks"
+"\" plugin."
+msgstr ""
+
+#: includes/settings/class-alg-wc-pvbc-settings-general.php:88
+msgid "Modify query"
+msgstr ""
+
+#: includes/settings/class-alg-wc-pvbc-settings-general.php:89
+msgid "This will hide selected products completely (including direct link)."
+msgstr ""
+
+#: includes/settings/class-alg-wc-pvbc-settings-general.php:96
+msgid ""
+"Optionally set URL for hidden products to redirect to (i.e. different from "
+"404 page)."
+msgstr ""
+
+#: includes/settings/class-alg-wc-pvbc-settings-general.php:97
+#, php-format
+msgid "Enter full URL (i.e. with %s)."
+msgstr ""
+
+#: includes/settings/class-alg-wc-pvbc-settings-general.php:98
+msgid "\"Modify query\" option must be enabled."
+msgstr ""
+
+#: includes/settings/class-alg-wc-pvbc-settings-general.php:100
+msgid "Redirect URL."
+msgstr ""
+
+#: includes/settings/class-alg-wc-pvbc-settings-general.php:111
+msgid ""
+"Enable this if you are still seeing hidden products in \"Products\" widgets."
+msgstr ""
+
+#: includes/settings/class-alg-wc-pvbc-settings-general.php:112
+msgid "Modify widget query"
+msgstr ""
+
+#: includes/settings/class-alg-wc-pvbc-settings-general.php:118
+msgid "Hide price"
+msgstr ""
+
+#: includes/settings/class-alg-wc-pvbc-settings-general.php:119
+msgid "This will hide prices for selected products."
+msgstr ""
+
+#: includes/settings/class-alg-wc-pvbc-settings-general.php:120
+msgid "Hide"
+msgstr ""
+
+#: includes/settings/class-alg-wc-pvbc-settings-general.php:127
+#: includes/settings/class-alg-wc-pvbc-settings-general.php:145
+#: includes/settings/class-alg-wc-pvbc-settings-general.php:162
+msgid "Content"
+msgstr ""
+
+#: includes/settings/class-alg-wc-pvbc-settings-general.php:128
+msgid "Set this if you wish to replace price with some message. Can be empty."
+msgstr ""
+
+#: includes/settings/class-alg-wc-pvbc-settings-general.php:129
+#: includes/settings/class-alg-wc-pvbc-settings-general.php:146
+#: includes/settings/class-alg-wc-pvbc-settings-general.php:163
+msgid "You can use HTML and/or shortcodes here."
+msgstr ""
+
+#: includes/settings/class-alg-wc-pvbc-settings-general.php:136
+msgid "Info on single product page"
+msgstr ""
+
+#: includes/settings/class-alg-wc-pvbc-settings-general.php:137
+msgid "This will output message on single product page for selected products."
+msgstr ""
+
+#: includes/settings/class-alg-wc-pvbc-settings-general.php:153
+msgid "Info on archives"
+msgstr ""
+
+#: includes/settings/class-alg-wc-pvbc-settings-general.php:154
+msgid "This will output message on archives for selected products."
+msgstr ""
+
+#: includes/settings/class-alg-wc-pvbc-settings-product-terms.php:24
+msgid "Product Terms"
+msgstr ""
+
+#: includes/settings/class-alg-wc-pvbc-settings-product-terms.php:37
+msgid "Product Terms Options"
+msgstr ""
+
+#: includes/settings/class-alg-wc-pvbc-settings-product-terms.php:38
+#, php-format
+msgid ""
+"When enabled, this will add new options to category and tag edit pages in "
+"\"%s\" and \"%s\"."
+msgstr ""
+
+#: includes/settings/class-alg-wc-pvbc-settings-product-terms.php:41
+#: includes/settings/class-alg-wc-pvbc-settings-product-terms.php:47
+msgid "Products"
+msgstr ""
+
+#: includes/settings/class-alg-wc-pvbc-settings-product-terms.php:42
+msgid "Categories"
+msgstr ""
+
+#: includes/settings/class-alg-wc-pvbc-settings-product-terms.php:43
+msgid "Category"
+msgstr ""
+
+#: includes/settings/class-alg-wc-pvbc-settings-product-terms.php:48
+msgid "Tags"
+msgstr ""
+
+#: includes/settings/class-alg-wc-pvbc-settings-product-terms.php:49
+msgid "Tag"
+msgstr ""
+
+#: includes/settings/class-alg-wc-pvbc-settings-product-terms.php:55
+msgid "Hide product terms"
+msgstr ""
+
+#: includes/settings/class-alg-wc-pvbc-settings-product-terms.php:56
+msgid ""
+"Enable this if you want to be able to hide product <strong>categories</"
+"strong> and <strong>tags</strong>."
+msgstr ""
+
+#: includes/settings/class-alg-wc-pvbc-settings-product-terms.php:67
+msgid "Hide products"
+msgstr ""
+
+#: includes/settings/class-alg-wc-pvbc-settings-product-terms.php:68
+msgid "Enable this if you want to additionally hide products in hidden terms."
+msgstr ""
+
+#: includes/settings/class-alg-wc-pvbc-settings-product-terms.php:69
+msgid "\"Hide product terms\" option must be enabled."
+msgstr ""
+
+#: includes/settings/class-alg-wc-settings-pvbc.php:55
+msgid "Reset Settings"
+msgstr ""
+
+#: includes/settings/class-alg-wc-settings-pvbc.php:60
+msgid "Reset section settings"
+msgstr ""
+
+#: includes/settings/class-alg-wc-settings-pvbc.php:61
+msgid "Reset"
+msgstr ""
+
+#: includes/settings/class-alg-wc-settings-pvbc.php:100
+msgid "Your settings have been reset."
+msgstr ""
+
+#: product-visibility-by-country-for-woocommerce.php:152
+msgid "Settings"
+msgstr ""
+
+#: product-visibility-by-country-for-woocommerce.php:155
+msgid "Unlock All"
+msgstr ""
