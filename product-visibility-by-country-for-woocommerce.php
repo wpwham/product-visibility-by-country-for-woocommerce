@@ -3,7 +3,7 @@
 Plugin Name: Product Visibility by Country for WooCommerce
 Plugin URI: https://wpwham.com/products/product-visibility-by-country-for-woocommerce/
 Description: Display WooCommerce products by customer's country.
-Version: 1.3.3
+Version: 1.4.0
 Author: WP Wham
 Author URI: https://wpwham.com/
 Text Domain: product-visibility-by-country-for-woocommerce
@@ -33,7 +33,7 @@ final class Alg_WC_PVBC {
 	 * @var   string
 	 * @since 1.0.0
 	 */
-	public $version = '1.3.3';
+	public $version = '1.4.0';
 
 	/**
 	 * @var   Alg_WC_PVBC The single instance of the class
