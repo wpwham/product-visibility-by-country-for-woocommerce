@@ -24,7 +24,7 @@ There are options in plugin to hide products by:
 
 = Premium Version =
 
-[Pro version](https://wpfactory.com/item/product-visibility-by-country-for-woocommerce/) has the options to:
+[Pro version](https://wpwham.com/products/product-visibility-by-country-for-woocommerce/) has the options to:
 
 * Hide **product terms** (i.e. product categories and tags) by country.
 * Customize **redirect URL** for hidden products (i.e. set it different from 404 page).
@@ -32,7 +32,7 @@ There are options in plugin to hide products by:
 = Feedback =
 
 * We are open to your suggestions and feedback. Thank you for using or trying out one of our plugins!
-* [Visit plugin site](https://wpfactory.com/item/product-visibility-by-country-for-woocommerce/).
+* [Visit plugin site](https://wpwham.com/products/product-visibility-by-country-for-woocommerce/).
 
 == Installation ==
 

@@ -100,7 +100,7 @@ class Alg_WC_PVBC_Settings_General extends Alg_WC_PVBC_Settings_Section {
 				'desc'     => __( 'Redirect URL.', 'product-visibility-by-country-for-woocommerce' ) .
 					apply_filters( 'alg_wc_pvbc_settings', ' ' .
 						sprintf( 'You will need <a href="%s" target="_blank">Product Visibility by Country for WooCommerce Pro</a> plugin to customize redirect URL.',
-							'https://wpfactory.com/item/product-visibility-by-country-for-woocommerce/' ) ),
+							'https://wpwham.com/products/product-visibility-by-country-for-woocommerce/' ) ),
 				'id'       => 'alg_wc_pvbc_query_redirect_url',
 				'default'  => '',
 				'type'     => 'text',
