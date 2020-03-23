@@ -2,8 +2,8 @@
 Contributors: wpwham
 Tags: woocommerce, product, visibility, country, woo commerce
 Requires at least: 4.4
-Tested up to: 5.3
-Stable tag: 1.4.0
+Tested up to: 5.4
+Stable tag: 1.4.1
 License: GNU General Public License v3.0
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -42,6 +42,9 @@ There are options in plugin to hide products by:
 
 == Changelog ==
 
+= 1.4.1 - 2020-03-23 =
+* UPDATE: bump tested versions
+
 = 1.4.0 - 2020-02-22 =
 * UPDATE: updated .pot file for translations
 
@@ -67,7 +70,7 @@ There are options in plugin to hide products by:
 * Dev - Advanced Options - Modify query - "Check main query only" (checkbox) option renamed to "Queries" (select) and "Check main and search queries only" value added.
 * Dev - Advanced Options - Modify query - "Use simple redirect" option added.
 * Dev - Plugin's fields added to WooCommerce export and import products tools.
-* Tested up to: 5.3.
+* Tested up to: 5.4.
 
 = 1.2.0 - 2019-11-12 =
 * Dev - Optimization - `product_by_country_pre_get_posts()` - Checking for main query now (can be disabled via "Advanced Options > Check main query only").
