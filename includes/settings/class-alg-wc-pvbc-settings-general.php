@@ -2,9 +2,10 @@
 /**
  * Product Visibility by Country for WooCommerce - General Section Settings
  *
- * @version 1.2.1
+ * @version 1.4.3
  * @since   1.0.0
  * @author  Algoritmika Ltd.
+ * @author  WP Wham
  */
 
 if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
@@ -28,7 +29,7 @@ class Alg_WC_PVBC_Settings_General extends Alg_WC_PVBC_Settings_Section {
 	/**
 	 * get_settings.
 	 *
-	 * @version 1.2.1
+	 * @version 1.4.3
 	 * @since   1.0.0
 	 */
 	public static function get_settings() {

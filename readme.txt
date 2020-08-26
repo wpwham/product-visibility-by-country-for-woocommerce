@@ -2,8 +2,8 @@
 Contributors: wpwham
 Tags: woocommerce, product, visibility, country, woo commerce
 Requires at least: 4.4
-Tested up to: 5.4
-Stable tag: 1.4.2
+Tested up to: 5.5
+Stable tag: 1.4.3
 License: GNU General Public License v3.0
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -41,6 +41,10 @@ There are options in plugin to hide products by:
 3. Start by visiting plugin settings at "WooCommerce > Settings > Product Visibility by Country".
 
 == Changelog ==
+
+= 1.4.3 - 2020-08-26 =
+* UPDATE: display our settings in WC status report.
+* UPDATE: updated .pot file for translations.
 
 = 1.4.2 - 2020-06-13 =
 * UPDATE: bump tested versions
