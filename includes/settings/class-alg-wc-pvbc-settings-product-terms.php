@@ -31,7 +31,7 @@ class Alg_WC_PVBC_Settings_Product_Terms extends Alg_WC_PVBC_Settings_Section {
 	 * @version 1.3.0
 	 * @since   1.2.0
 	 */
-	function get_settings() {
+	public static function get_settings() {
 		$product_terms_settings = array(
 			array(
 				'title'    => __( 'Product Terms Options', 'product-visibility-by-country-for-woocommerce' ),

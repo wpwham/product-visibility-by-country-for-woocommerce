@@ -31,7 +31,7 @@ class Alg_WC_PVBC_Settings_General extends Alg_WC_PVBC_Settings_Section {
 	 * @version 1.2.1
 	 * @since   1.0.0
 	 */
-	function get_settings() {
+	public static function get_settings() {
 		$main_settings = array(
 			array(
 				'title'    => __( 'Product Visibility by Country Options', 'product-visibility-by-country-for-woocommerce' ),

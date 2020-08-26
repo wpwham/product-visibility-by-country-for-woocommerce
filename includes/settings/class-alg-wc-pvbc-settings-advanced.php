@@ -32,7 +32,7 @@ class Alg_WC_PVBC_Settings_Advanced extends Alg_WC_PVBC_Settings_Section {
 	 * @since   1.2.0
 	 * @todo    [dev] remove all `alg_wc_pvbc_modify_` options
 	 */
-	function get_settings() {
+	public static function get_settings() {
 		$advanced_settings = array(
 			array(
 				'title'    => __( 'Advanced Options', 'product-visibility-by-country-for-woocommerce' ),

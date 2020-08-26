@@ -133,6 +133,7 @@ final class Alg_WC_PVBC {
 		require_once( 'includes/settings/class-alg-wc-pvbc-metaboxes.php' );
 		// Settings
 		add_filter( 'woocommerce_get_settings_pages', array( $this, 'add_woocommerce_settings_tab' ) );
+		add_action( 'woocommerce_system_status_report', array( $this, 'add_settings_to_status_report' ) );
 		// Version update
 		if ( get_option( 'alg_wc_pvbc_version', '' ) !== $this->version ) {
 			add_action( 'admin_init', array( $this, 'version_updated' ) );
@@ -155,6 +156,60 @@ final class Alg_WC_PVBC {
 				__( 'Unlock All', 'product-visibility-by-country-for-woocommerce' ) . '</a>';
 		}
 		return array_merge( $custom_links, $links );
+	}
+
+	/**
+	 * add settings to WC status report
+	 *
+	 * @version 1.4.3
+	 * @since   1.4.3
+	 * @author  WP Wham
+	 */
+	public static function add_settings_to_status_report() {
+		#region add_settings_to_status_report
+		$protected_settings = array( 'wpwham_product_visibility_country_license' );
+		$settings_general   = Alg_WC_PVBC_Settings_General::get_settings();
+		$settings_admin     = Alg_WC_PVBC_Settings_Admin::get_settings();
+		$settings_product   = Alg_WC_PVBC_Settings_Product_Terms::get_settings();
+		$settings_advanced  = Alg_WC_PVBC_Settings_Advanced::get_settings();
+		$settings = array_merge(
+			$settings_general, $settings_admin, $settings_product, $settings_advanced
+		);
+		?>
+		<table class="wc_status_table widefat" cellspacing="0">
+			<thead>
+				<tr>
+					<th colspan="3" data-export-label="Product Visibility by Country Settings"><h2><?php esc_html_e( 'Product Visibility by Country Settings', 'product-visibility-by-country-for-woocommerce' ); ?></h2></th>
+				</tr>
+			</thead>
+			<tbody>
+				<?php foreach ( $settings as $setting ): ?>
+				<?php 
+				if ( in_array( $setting['type'], array( 'title', 'sectionend' ) ) ) { 
+					continue;
+				}
+				if ( isset( $setting['title'] ) ) {
+					$title = $setting['title'];
+				} elseif ( isset( $setting['desc'] ) ) {
+					$title = $setting['desc'];
+				} else {
+					$title = $setting['id'];
+				}
+				$value = get_option( $setting['id'] ); 
+				if ( in_array( $setting['id'], $protected_settings ) ) {
+					$value = $value > '' ? '(set)' : 'not set';
+				}
+				?>
+				<tr>
+					<td data-export-label="<?php echo esc_attr( $title ); ?>"><?php esc_html_e( $title, 'product-visibility-by-country-for-woocommerce' ); ?>:</td>
+					<td class="help">&nbsp;</td>
+					<td><?php echo is_array( $value ) ? print_r( $value, true ) : $value; ?></td>
+				</tr>
+				<?php endforeach; ?>
+			</tbody>
+		</table>
+		<?php
+		#endregion add_settings_to_status_report
 	}
 
 	/**
