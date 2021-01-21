@@ -377,7 +377,7 @@ class Alg_WC_PVBC_Core {
 	function product_by_country_widget_query( $query_args ) {
 		remove_action( 'pre_get_posts', array( $this, 'product_by_country_pre_get_posts' ) );
 		$country                = $this->get_country_by_ip();
-		$post__not_in           = ( isset( $query_args['post__not_in'] ) ? $query_args['post__not_in'] : array() );
+		$post__not_in           = empty( $query_args['post__not_in'] ) ? array() : $query_args['post__not_in'];		
 		$args                   = $query_args;
 		$args['fields']         = 'ids';
 		$args['posts_per_page'] = -1;
@@ -420,6 +420,7 @@ class Alg_WC_PVBC_Core {
 		remove_action( 'pre_get_posts', array( $this, 'product_by_country_pre_get_posts' ) );
 		$country        = $this->get_country_by_ip();
 		$post__not_in   = $query->get( 'post__not_in' );
+		$post__not_in   = empty( $post__not_in ) ? array() : $post__not_in;
 		$args           = array(
 			'post_type'      => 'product',
 			'posts_per_page' => -1,
