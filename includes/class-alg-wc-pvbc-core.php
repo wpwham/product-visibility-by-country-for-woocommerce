@@ -370,7 +370,7 @@ class Alg_WC_PVBC_Core {
 	/**
 	 * product_by_country_widget_query.
 	 *
-	 * @version 1.1.0
+	 * @version 1.4.5
 	 * @since   1.1.0
 	 * @todo    [dev] check `$args = $query_args;`
 	 */
@@ -397,7 +397,7 @@ class Alg_WC_PVBC_Core {
 	/**
 	 * product_by_country_pre_get_posts.
 	 *
-	 * @version 1.2.1
+	 * @version 1.4.5
 	 * @since   1.0.0
 	 * @see     https://developer.wordpress.org/reference/files/wp-includes/query.php/
 	 * @todo    [dev] optimization: `woocommerce_product_query`
