@@ -139,6 +139,7 @@ class Alg_WC_PVBC_Metaboxes {
 		}
 		$html .= '</table>';
 		$html .= '<input type="hidden" name="alg_wc_pvbc_save_post" value="alg_wc_pvbc_save_post">';
+		$html .= '<p id="wpwham-product-visibility-by-country-meta-box-messages" style="display: none; font-style: italic;"></p>';
 		echo $html;
 	}
 

@@ -15,7 +15,13 @@ License: GNU General Public License v3.0
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 */
 
-if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
+// Exit if accessed directly
+if ( ! defined( 'ABSPATH' ) ) {
+	exit;
+}
+
+define( 'WPWHAM_PRODUCT_VISIBILITY_BY_COUNTRY_VERSION', '1.4.6' );
+define( 'WPWHAM_PRODUCT_VISIBILITY_BY_COUNTRY_URL', untrailingslashit( plugin_dir_url( __FILE__ ) ) . '/' );
 
 if ( ! class_exists( 'Alg_WC_PVBC' ) ) :
 

@@ -74,6 +74,8 @@ class Alg_WC_PVBC_Core {
 					do_action( 'alg_wc_pvbc_core_frontend_loaded', $this );
 				}
 			} else {
+				// Backend scripts
+				add_action( 'admin_enqueue_scripts', array( $this, 'enqueue_scripts_admin' ) );
 				// Back-end: Admin products list
 				if ( 'yes' === get_option( 'alg_wc_pvbc_add_column_visible_countries', 'no' ) ) {
 					add_filter( 'manage_edit-product_columns',                  array( $this, 'add_product_columns' ),   PHP_INT_MAX );
@@ -99,7 +101,59 @@ class Alg_WC_PVBC_Core {
 		}
 		return false;
 	}
-
+	
+	/**
+	 * Enqueue admin scripts.
+	 *
+	 * @version 1.x.x
+	 * @since   1.x.x
+	 */
+	public function enqueue_scripts_admin() {
+		
+		global $pagenow;
+		
+		// check if its a page where we need this
+		if (
+			$pagenow === 'post.php'
+			|| ( $pagenow === 'post-new.php' && isset( $_REQUEST['post_type'] ) && $_REQUEST['post_type'] === 'product' )
+		) {
+			wp_enqueue_script(
+				'wpwham-product-visibility-by-country-admin',
+				WPWHAM_PRODUCT_VISIBILITY_BY_COUNTRY_URL . 'assets/js/wpwham-product-visibility-by-country-admin.js',
+				array( 'jquery' ),
+				WPWHAM_PRODUCT_VISIBILITY_BY_COUNTRY_VERSION,
+				true
+			);
+			wp_localize_script(
+				'wpwham-product-visibility-by-country-admin',
+				'wpwham_product_visibility_by_country_admin',
+				array(
+					'i18n' => array(
+						'logical_error'             => __(
+							'Error: Visible and Invisible are mutually-exclusive, you cannot use both at the same time.',
+							'product-visibility-by-country-for-woocommerce'
+						),
+						'see_documentation'         => sprintf(
+							__(
+								'Need help? Check our <a href="%s" target="_blank">Documentation</a>.',
+								'product-visibility-by-country-for-woocommerce'
+							), 'https://wpwham.com/documentation/product-visibility-by-country-for-woocommerce/?utm_source=documentation_link&utm_campaign=free&utm_medium=product_visibility_country'
+						),
+						'why_is_invisible_disabled' => __(
+							'You have chosen to specify the countries you want this product to be <strong>visible</strong> in.  All other countries that you don\'t specify are automatically <strong>invisible</strong>.  You don\'t have to specify it both ways.',
+							'product-visibility-by-country-for-woocommerce'
+						),
+						'why_is_visible_disabled'   => __(
+							'You have chosen to specify the countries you want this product to be <strong>invisible</strong> in.  All other countries that you don\'t specify are automatically <strong>visible</strong>.  You don\'t have to specify it both ways.',
+							'product-visibility-by-country-for-woocommerce'
+						),
+					),
+				)
+			);
+		}
+		
+	}
+	
 	/**
 	 * add_to_log.
 	 *
