@@ -3,14 +3,14 @@ msgid ""
 msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "Project-Id-Version: Product Visibility by Country for WooCommerce\n"
-"POT-Creation-Date: 2020-08-26 04:41-0700\n"
+"POT-Creation-Date: 2021-09-01 05:59-0700\n"
 "PO-Revision-Date: 2020-02-22 22:54-0800\n"
 "Last-Translator: \n"
 "Language-Team: WP Wham <support@wpwham.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.12\n"
+"X-Generator: Poedit 1.8.11\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-WPHeader: product-visibility-by-country-for-woocommerce.php\n"
 "X-Poedit-SourceCharset: UTF-8\n"
@@ -1004,233 +1004,261 @@ msgstr ""
 msgid "European Union"
 msgstr ""
 
-#: includes/class-alg-wc-pvbc-core.php:218
-#: includes/settings/class-alg-wc-pvbc-settings-general.php:147
-#: includes/settings/class-alg-wc-pvbc-settings-general.php:164
+#: includes/class-alg-wc-pvbc-core.php:133
+msgid ""
+"Error: Visible and Invisible are mutually-exclusive, you cannot use both at "
+"the same time."
+msgstr ""
+
+#: includes/class-alg-wc-pvbc-core.php:138
+#, php-format
+msgid ""
+"Need help? Check our <a href=\"%s\" target=\"_blank\">Documentation</a>."
+msgstr ""
+
+#: includes/class-alg-wc-pvbc-core.php:143
+msgid ""
+"You have chosen to specify the countries you want this product to be "
+"<strong>visible</strong> in.  All other countries that you don't specify are "
+"automatically <strong>invisible</strong>.  You don't have to specify it both "
+"ways."
+msgstr ""
+
+#: includes/class-alg-wc-pvbc-core.php:147
+msgid ""
+"You have chosen to specify the countries you want this product to be "
+"<strong>invisible</strong> in.  All other countries that you don't specify "
+"are automatically <strong>visible</strong>.  You don't have to specify it "
+"both ways."
+msgstr ""
+
+#: includes/class-alg-wc-pvbc-core.php:272
+#: includes/settings/class-alg-wc-pvbc-settings-general.php:153
+#: includes/settings/class-alg-wc-pvbc-settings-general.php:170
 msgid "The product is not available in your country."
 msgstr ""
 
-#: includes/class-alg-wc-pvbc-core.php:249
+#: includes/class-alg-wc-pvbc-core.php:303
 msgid "Countries"
 msgstr ""
 
-#: includes/class-alg-wc-pvbc-core.php:328
-#: includes/class-alg-wc-pvbc-core.php:339
-#: includes/class-alg-wc-pvbc-core.php:350
+#: includes/class-alg-wc-pvbc-core.php:382
+#: includes/class-alg-wc-pvbc-core.php:393
+#: includes/class-alg-wc-pvbc-core.php:404
 #, php-format
 msgid "Product #%s is hidden for %s."
 msgstr ""
 
-#: includes/class-alg-wc-pvbc-core.php:329
+#: includes/class-alg-wc-pvbc-core.php:383
 msgid "Reason: Filter."
 msgstr ""
 
-#: includes/class-alg-wc-pvbc-core.php:340
+#: includes/class-alg-wc-pvbc-core.php:394
 #, php-format
 msgid "Reason: Visible in countries: %s."
 msgstr ""
 
-#: includes/class-alg-wc-pvbc-core.php:351
+#: includes/class-alg-wc-pvbc-core.php:405
 #, php-format
 msgid "Reason: Invisible in countries: %s."
 msgstr ""
 
-#: includes/class-alg-wc-pvbc-core.php:359
+#: includes/class-alg-wc-pvbc-core.php:413
 #, php-format
 msgid "Product #%s is shown for %s."
 msgstr ""
 
-#: includes/class-alg-wc-pvbc-core.php:360
+#: includes/class-alg-wc-pvbc-core.php:414
 #, php-format
 msgid "Visible in countries: %s. Invisible in countries: %s."
 msgstr ""
 
-#: includes/class-alg-wc-pvbc-core.php:361
-#: includes/class-alg-wc-pvbc-core.php:362
+#: includes/class-alg-wc-pvbc-core.php:415
+#: includes/class-alg-wc-pvbc-core.php:416
 msgid "None"
 msgstr ""
 
 #: includes/settings/class-alg-wc-pvbc-metaboxes.php:36
-#: includes/settings/class-alg-wc-pvbc-settings-general.php:45
+#: includes/settings/class-alg-wc-pvbc-settings-general.php:46
 #: includes/settings/class-alg-wc-settings-pvbc.php:24
 msgid "Product Visibility by Country"
 msgstr ""
 
-#: includes/settings/class-alg-wc-pvbc-metaboxes.php:190
+#: includes/settings/class-alg-wc-pvbc-metaboxes.php:191
 #, php-format
 msgid "Currently selected: %s."
 msgstr ""
 
-#: includes/settings/class-alg-wc-pvbc-metaboxes.php:209
+#: includes/settings/class-alg-wc-pvbc-metaboxes.php:210
 msgid "Visible in countries"
 msgstr ""
 
-#: includes/settings/class-alg-wc-pvbc-metaboxes.php:210
-#: includes/settings/class-alg-wc-pvbc-metaboxes.php:224
+#: includes/settings/class-alg-wc-pvbc-metaboxes.php:211
+#: includes/settings/class-alg-wc-pvbc-metaboxes.php:225
 msgid "If no countries selected - product will be visible in all countries."
 msgstr ""
 
-#: includes/settings/class-alg-wc-pvbc-metaboxes.php:211
+#: includes/settings/class-alg-wc-pvbc-metaboxes.php:212
 msgid ""
 "If you fill in this option, you don't need to fill in \"Invisible in "
 "countries\" option."
 msgstr ""
 
-#: includes/settings/class-alg-wc-pvbc-metaboxes.php:212
-#: includes/settings/class-alg-wc-pvbc-metaboxes.php:226
+#: includes/settings/class-alg-wc-pvbc-metaboxes.php:213
+#: includes/settings/class-alg-wc-pvbc-metaboxes.php:227
 msgid ""
 "Hold Control (Ctrl) key to select/deselect multiple countries. Hold Control "
 "+ A to select all countries."
 msgstr ""
 
-#: includes/settings/class-alg-wc-pvbc-metaboxes.php:223
+#: includes/settings/class-alg-wc-pvbc-metaboxes.php:224
 msgid "Invisible in countries"
 msgstr ""
 
-#: includes/settings/class-alg-wc-pvbc-metaboxes.php:225
+#: includes/settings/class-alg-wc-pvbc-metaboxes.php:226
 msgid ""
 "If you fill in this option, you don't need to fill in \"Visible in countries"
 "\" option."
 msgstr ""
 
-#: includes/settings/class-alg-wc-pvbc-settings-admin.php:24
+#: includes/settings/class-alg-wc-pvbc-settings-admin.php:25
 msgid "Admin"
 msgstr ""
 
-#: includes/settings/class-alg-wc-pvbc-settings-admin.php:37
+#: includes/settings/class-alg-wc-pvbc-settings-admin.php:38
 msgid "Admin Options"
 msgstr ""
 
-#: includes/settings/class-alg-wc-pvbc-settings-admin.php:42
+#: includes/settings/class-alg-wc-pvbc-settings-admin.php:43
 msgid "Admin products list column"
 msgstr ""
 
-#: includes/settings/class-alg-wc-pvbc-settings-admin.php:43
+#: includes/settings/class-alg-wc-pvbc-settings-admin.php:44
 msgid "This will add \"Countries\" column to the admin products list."
 msgstr ""
 
-#: includes/settings/class-alg-wc-pvbc-settings-admin.php:44
-#: includes/settings/class-alg-wc-pvbc-settings-general.php:138
-#: includes/settings/class-alg-wc-pvbc-settings-general.php:155
+#: includes/settings/class-alg-wc-pvbc-settings-admin.php:45
+#: includes/settings/class-alg-wc-pvbc-settings-general.php:144
+#: includes/settings/class-alg-wc-pvbc-settings-general.php:161
 msgid "Add"
 msgstr ""
 
-#: includes/settings/class-alg-wc-pvbc-settings-admin.php:50
+#: includes/settings/class-alg-wc-pvbc-settings-admin.php:51
 msgid "Select box type"
 msgstr ""
 
-#: includes/settings/class-alg-wc-pvbc-settings-admin.php:51
+#: includes/settings/class-alg-wc-pvbc-settings-admin.php:52
 msgid "Select box type on product's edit page and on term's edit page."
 msgstr ""
 
-#: includes/settings/class-alg-wc-pvbc-settings-admin.php:57
+#: includes/settings/class-alg-wc-pvbc-settings-admin.php:58
 msgid "Standard"
 msgstr ""
 
-#: includes/settings/class-alg-wc-pvbc-settings-admin.php:58
+#: includes/settings/class-alg-wc-pvbc-settings-admin.php:59
 msgid "Chosen select"
 msgstr ""
 
-#: includes/settings/class-alg-wc-pvbc-settings-advanced.php:24
+#: includes/settings/class-alg-wc-pvbc-settings-advanced.php:25
 msgid "Advanced"
 msgstr ""
 
-#: includes/settings/class-alg-wc-pvbc-settings-advanced.php:38
+#: includes/settings/class-alg-wc-pvbc-settings-advanced.php:39
 msgid "Advanced Options"
 msgstr ""
 
-#: includes/settings/class-alg-wc-pvbc-settings-advanced.php:43
+#: includes/settings/class-alg-wc-pvbc-settings-advanced.php:44
 msgid "Debug mode"
 msgstr ""
 
-#: includes/settings/class-alg-wc-pvbc-settings-advanced.php:44
+#: includes/settings/class-alg-wc-pvbc-settings-advanced.php:45
 #, php-format
 msgid "This will add log to %s."
 msgstr ""
 
-#: includes/settings/class-alg-wc-pvbc-settings-advanced.php:46
+#: includes/settings/class-alg-wc-pvbc-settings-advanced.php:47
 msgid "WooCommerce > Status > Logs"
 msgstr ""
 
-#: includes/settings/class-alg-wc-pvbc-settings-advanced.php:47
+#: includes/settings/class-alg-wc-pvbc-settings-advanced.php:48
 msgid "Do not enable unless there are any issues with the plugin."
 msgstr ""
 
-#: includes/settings/class-alg-wc-pvbc-settings-advanced.php:48
-#: includes/settings/class-alg-wc-pvbc-settings-advanced.php:90
-#: includes/settings/class-alg-wc-pvbc-settings-advanced.php:97
-#: includes/settings/class-alg-wc-pvbc-settings-general.php:66
-#: includes/settings/class-alg-wc-pvbc-settings-general.php:74
-#: includes/settings/class-alg-wc-pvbc-settings-general.php:82
-#: includes/settings/class-alg-wc-pvbc-settings-general.php:90
-#: includes/settings/class-alg-wc-pvbc-settings-product-terms.php:60
-#: includes/settings/class-alg-wc-pvbc-settings-product-terms.php:70
+#: includes/settings/class-alg-wc-pvbc-settings-advanced.php:49
+#: includes/settings/class-alg-wc-pvbc-settings-advanced.php:91
+#: includes/settings/class-alg-wc-pvbc-settings-advanced.php:98
+#: includes/settings/class-alg-wc-pvbc-settings-general.php:72
+#: includes/settings/class-alg-wc-pvbc-settings-general.php:80
+#: includes/settings/class-alg-wc-pvbc-settings-general.php:88
+#: includes/settings/class-alg-wc-pvbc-settings-general.php:96
+#: includes/settings/class-alg-wc-pvbc-settings-product-terms.php:61
+#: includes/settings/class-alg-wc-pvbc-settings-product-terms.php:71
 msgid "Enable"
 msgstr ""
 
-#: includes/settings/class-alg-wc-pvbc-settings-advanced.php:54
+#: includes/settings/class-alg-wc-pvbc-settings-advanced.php:55
 msgid "Disable URL"
 msgstr ""
 
-#: includes/settings/class-alg-wc-pvbc-settings-advanced.php:55
+#: includes/settings/class-alg-wc-pvbc-settings-advanced.php:56
 msgid "You can disable plugin on some URLs of your site. One URL per line."
 msgstr ""
 
-#: includes/settings/class-alg-wc-pvbc-settings-advanced.php:56
-#: includes/settings/class-alg-wc-pvbc-settings-general.php:99
+#: includes/settings/class-alg-wc-pvbc-settings-advanced.php:57
+#: includes/settings/class-alg-wc-pvbc-settings-general.php:105
 msgid "Ignored if empty."
 msgstr ""
 
-#: includes/settings/class-alg-wc-pvbc-settings-advanced.php:57
+#: includes/settings/class-alg-wc-pvbc-settings-advanced.php:58
 #, php-format
 msgid "E.g.: %s"
 msgstr ""
 
-#: includes/settings/class-alg-wc-pvbc-settings-advanced.php:70
+#: includes/settings/class-alg-wc-pvbc-settings-advanced.php:71
 msgid "\"Modify query\" Optimization Options"
 msgstr ""
 
-#: includes/settings/class-alg-wc-pvbc-settings-advanced.php:71
+#: includes/settings/class-alg-wc-pvbc-settings-advanced.php:72
 msgid "Affects \"Modify query\" option only."
 msgstr ""
 
-#: includes/settings/class-alg-wc-pvbc-settings-advanced.php:72
+#: includes/settings/class-alg-wc-pvbc-settings-advanced.php:73
 msgid "Do not change settings unless there are any issues with the plugin."
 msgstr ""
 
-#: includes/settings/class-alg-wc-pvbc-settings-advanced.php:77
+#: includes/settings/class-alg-wc-pvbc-settings-advanced.php:78
 msgid "Queries"
 msgstr ""
 
-#: includes/settings/class-alg-wc-pvbc-settings-advanced.php:83
+#: includes/settings/class-alg-wc-pvbc-settings-advanced.php:84
 msgid "Check main query only"
 msgstr ""
 
-#: includes/settings/class-alg-wc-pvbc-settings-advanced.php:84
+#: includes/settings/class-alg-wc-pvbc-settings-advanced.php:85
 msgid "Check main and search queries only"
 msgstr ""
 
-#: includes/settings/class-alg-wc-pvbc-settings-advanced.php:85
+#: includes/settings/class-alg-wc-pvbc-settings-advanced.php:86
 msgid "Check all queries"
 msgstr ""
 
-#: includes/settings/class-alg-wc-pvbc-settings-advanced.php:89
+#: includes/settings/class-alg-wc-pvbc-settings-advanced.php:90
 msgid "Check post type"
 msgstr ""
 
-#: includes/settings/class-alg-wc-pvbc-settings-advanced.php:96
+#: includes/settings/class-alg-wc-pvbc-settings-advanced.php:97
 msgid "Use simple redirect"
 msgstr ""
 
-#: includes/settings/class-alg-wc-pvbc-settings-general.php:24
+#: includes/settings/class-alg-wc-pvbc-settings-general.php:25
 msgid "General"
 msgstr ""
 
-#: includes/settings/class-alg-wc-pvbc-settings-general.php:37
+#: includes/settings/class-alg-wc-pvbc-settings-general.php:38
 msgid "Product Visibility by Country Options"
 msgstr ""
 
-#: includes/settings/class-alg-wc-pvbc-settings-general.php:40
+#: includes/settings/class-alg-wc-pvbc-settings-general.php:41
 #, php-format
 msgid ""
 "Please note that if you have any <strong>caching</strong> plugins installed, "
@@ -1238,189 +1266,198 @@ msgid ""
 "\"Default customer location\" in %s."
 msgstr ""
 
-#: includes/settings/class-alg-wc-pvbc-settings-general.php:42
+#: includes/settings/class-alg-wc-pvbc-settings-general.php:43
 msgid "WooCommerce > Settings > General"
 msgstr ""
 
-#: includes/settings/class-alg-wc-pvbc-settings-general.php:46
+#: includes/settings/class-alg-wc-pvbc-settings-general.php:47
 msgid "Enable plugin"
 msgstr ""
 
-#: includes/settings/class-alg-wc-pvbc-settings-general.php:58
+#. Plugin Name of the plugin/theme
+#: includes/settings/class-alg-wc-pvbc-settings-general.php:49
+msgid "Product Visibility by Country for WooCommerce"
+msgstr ""
+
+#: includes/settings/class-alg-wc-pvbc-settings-general.php:52
+msgid "Documentation"
+msgstr ""
+
+#: includes/settings/class-alg-wc-pvbc-settings-general.php:64
 msgid "General Options"
 msgstr ""
 
-#: includes/settings/class-alg-wc-pvbc-settings-general.php:59
+#: includes/settings/class-alg-wc-pvbc-settings-general.php:65
 msgid ""
 "To set countries for each product, check \"Product Visibility by Country\" "
 "meta box on each product's edit page."
 msgstr ""
 
-#: includes/settings/class-alg-wc-pvbc-settings-general.php:64
+#: includes/settings/class-alg-wc-pvbc-settings-general.php:70
 msgid "Hide catalog visibility"
 msgstr ""
 
-#: includes/settings/class-alg-wc-pvbc-settings-general.php:65
+#: includes/settings/class-alg-wc-pvbc-settings-general.php:71
 msgid ""
 "This will hide selected products in shop and search results. However product "
 "still will be accessible via direct link."
 msgstr ""
 
-#: includes/settings/class-alg-wc-pvbc-settings-general.php:72
+#: includes/settings/class-alg-wc-pvbc-settings-general.php:78
 msgid "Make non-purchasable"
 msgstr ""
 
-#: includes/settings/class-alg-wc-pvbc-settings-general.php:73
+#: includes/settings/class-alg-wc-pvbc-settings-general.php:79
 msgid ""
 "This will make selected products non-purchasable (i.e. product can't be "
 "added to the cart)."
 msgstr ""
 
-#: includes/settings/class-alg-wc-pvbc-settings-general.php:80
+#: includes/settings/class-alg-wc-pvbc-settings-general.php:86
 msgid "Hide visibility in \"WooCommerce Blocks\""
 msgstr ""
 
-#: includes/settings/class-alg-wc-pvbc-settings-general.php:81
+#: includes/settings/class-alg-wc-pvbc-settings-general.php:87
 msgid ""
 "This will hide selected products in blocks created with \"WooCommerce Blocks"
 "\" plugin."
 msgstr ""
 
-#: includes/settings/class-alg-wc-pvbc-settings-general.php:88
+#: includes/settings/class-alg-wc-pvbc-settings-general.php:94
 msgid "Modify query"
 msgstr ""
 
-#: includes/settings/class-alg-wc-pvbc-settings-general.php:89
+#: includes/settings/class-alg-wc-pvbc-settings-general.php:95
 msgid "This will hide selected products completely (including direct link)."
 msgstr ""
 
-#: includes/settings/class-alg-wc-pvbc-settings-general.php:96
+#: includes/settings/class-alg-wc-pvbc-settings-general.php:102
 msgid ""
 "Optionally set URL for hidden products to redirect to (i.e. different from "
 "404 page)."
 msgstr ""
 
-#: includes/settings/class-alg-wc-pvbc-settings-general.php:97
+#: includes/settings/class-alg-wc-pvbc-settings-general.php:103
 #, php-format
 msgid "Enter full URL (i.e. with %s)."
 msgstr ""
 
-#: includes/settings/class-alg-wc-pvbc-settings-general.php:98
+#: includes/settings/class-alg-wc-pvbc-settings-general.php:104
 msgid "\"Modify query\" option must be enabled."
 msgstr ""
 
-#: includes/settings/class-alg-wc-pvbc-settings-general.php:100
+#: includes/settings/class-alg-wc-pvbc-settings-general.php:106
 msgid "Redirect URL."
 msgstr ""
 
-#: includes/settings/class-alg-wc-pvbc-settings-general.php:111
+#: includes/settings/class-alg-wc-pvbc-settings-general.php:117
 msgid ""
 "Enable this if you are still seeing hidden products in \"Products\" widgets."
 msgstr ""
 
-#: includes/settings/class-alg-wc-pvbc-settings-general.php:112
+#: includes/settings/class-alg-wc-pvbc-settings-general.php:118
 msgid "Modify widget query"
 msgstr ""
 
-#: includes/settings/class-alg-wc-pvbc-settings-general.php:118
+#: includes/settings/class-alg-wc-pvbc-settings-general.php:124
 msgid "Hide price"
 msgstr ""
 
-#: includes/settings/class-alg-wc-pvbc-settings-general.php:119
+#: includes/settings/class-alg-wc-pvbc-settings-general.php:125
 msgid "This will hide prices for selected products."
 msgstr ""
 
-#: includes/settings/class-alg-wc-pvbc-settings-general.php:120
+#: includes/settings/class-alg-wc-pvbc-settings-general.php:126
 msgid "Hide"
 msgstr ""
 
-#: includes/settings/class-alg-wc-pvbc-settings-general.php:127
-#: includes/settings/class-alg-wc-pvbc-settings-general.php:145
-#: includes/settings/class-alg-wc-pvbc-settings-general.php:162
+#: includes/settings/class-alg-wc-pvbc-settings-general.php:133
+#: includes/settings/class-alg-wc-pvbc-settings-general.php:151
+#: includes/settings/class-alg-wc-pvbc-settings-general.php:168
 msgid "Content"
 msgstr ""
 
-#: includes/settings/class-alg-wc-pvbc-settings-general.php:128
+#: includes/settings/class-alg-wc-pvbc-settings-general.php:134
 msgid "Set this if you wish to replace price with some message. Can be empty."
 msgstr ""
 
-#: includes/settings/class-alg-wc-pvbc-settings-general.php:129
-#: includes/settings/class-alg-wc-pvbc-settings-general.php:146
-#: includes/settings/class-alg-wc-pvbc-settings-general.php:163
+#: includes/settings/class-alg-wc-pvbc-settings-general.php:135
+#: includes/settings/class-alg-wc-pvbc-settings-general.php:152
+#: includes/settings/class-alg-wc-pvbc-settings-general.php:169
 msgid "You can use HTML and/or shortcodes here."
 msgstr ""
 
-#: includes/settings/class-alg-wc-pvbc-settings-general.php:136
+#: includes/settings/class-alg-wc-pvbc-settings-general.php:142
 msgid "Info on single product page"
 msgstr ""
 
-#: includes/settings/class-alg-wc-pvbc-settings-general.php:137
+#: includes/settings/class-alg-wc-pvbc-settings-general.php:143
 msgid "This will output message on single product page for selected products."
 msgstr ""
 
-#: includes/settings/class-alg-wc-pvbc-settings-general.php:153
+#: includes/settings/class-alg-wc-pvbc-settings-general.php:159
 msgid "Info on archives"
 msgstr ""
 
-#: includes/settings/class-alg-wc-pvbc-settings-general.php:154
+#: includes/settings/class-alg-wc-pvbc-settings-general.php:160
 msgid "This will output message on archives for selected products."
 msgstr ""
 
-#: includes/settings/class-alg-wc-pvbc-settings-product-terms.php:24
+#: includes/settings/class-alg-wc-pvbc-settings-product-terms.php:25
 msgid "Product Terms"
 msgstr ""
 
-#: includes/settings/class-alg-wc-pvbc-settings-product-terms.php:37
+#: includes/settings/class-alg-wc-pvbc-settings-product-terms.php:38
 msgid "Product Terms Options"
 msgstr ""
 
-#: includes/settings/class-alg-wc-pvbc-settings-product-terms.php:38
+#: includes/settings/class-alg-wc-pvbc-settings-product-terms.php:39
 #, php-format
 msgid ""
 "When enabled, this will add new options to category and tag edit pages in "
 "\"%s\" and \"%s\"."
 msgstr ""
 
-#: includes/settings/class-alg-wc-pvbc-settings-product-terms.php:41
-#: includes/settings/class-alg-wc-pvbc-settings-product-terms.php:47
+#: includes/settings/class-alg-wc-pvbc-settings-product-terms.php:42
+#: includes/settings/class-alg-wc-pvbc-settings-product-terms.php:48
 msgid "Products"
 msgstr ""
 
-#: includes/settings/class-alg-wc-pvbc-settings-product-terms.php:42
+#: includes/settings/class-alg-wc-pvbc-settings-product-terms.php:43
 msgid "Categories"
 msgstr ""
 
-#: includes/settings/class-alg-wc-pvbc-settings-product-terms.php:43
+#: includes/settings/class-alg-wc-pvbc-settings-product-terms.php:44
 msgid "Category"
 msgstr ""
 
-#: includes/settings/class-alg-wc-pvbc-settings-product-terms.php:48
+#: includes/settings/class-alg-wc-pvbc-settings-product-terms.php:49
 msgid "Tags"
 msgstr ""
 
-#: includes/settings/class-alg-wc-pvbc-settings-product-terms.php:49
+#: includes/settings/class-alg-wc-pvbc-settings-product-terms.php:50
 msgid "Tag"
 msgstr ""
 
-#: includes/settings/class-alg-wc-pvbc-settings-product-terms.php:55
+#: includes/settings/class-alg-wc-pvbc-settings-product-terms.php:56
 msgid "Hide product terms"
 msgstr ""
 
-#: includes/settings/class-alg-wc-pvbc-settings-product-terms.php:56
+#: includes/settings/class-alg-wc-pvbc-settings-product-terms.php:57
 msgid ""
 "Enable this if you want to be able to hide product <strong>categories</"
 "strong> and <strong>tags</strong>."
 msgstr ""
 
-#: includes/settings/class-alg-wc-pvbc-settings-product-terms.php:67
+#: includes/settings/class-alg-wc-pvbc-settings-product-terms.php:68
 msgid "Hide products"
 msgstr ""
 
-#: includes/settings/class-alg-wc-pvbc-settings-product-terms.php:68
+#: includes/settings/class-alg-wc-pvbc-settings-product-terms.php:69
 msgid "Enable this if you want to additionally hide products in hidden terms."
 msgstr ""
 
-#: includes/settings/class-alg-wc-pvbc-settings-product-terms.php:69
+#: includes/settings/class-alg-wc-pvbc-settings-product-terms.php:70
 msgid "\"Hide product terms\" option must be enabled."
 msgstr ""
 
@@ -1440,20 +1477,16 @@ msgstr ""
 msgid "Your settings have been reset."
 msgstr ""
 
-#: product-visibility-by-country-for-woocommerce.php:153
+#: product-visibility-by-country-for-woocommerce.php:160
 msgid "Settings"
 msgstr ""
 
-#: product-visibility-by-country-for-woocommerce.php:156
+#: product-visibility-by-country-for-woocommerce.php:163
 msgid "Unlock All"
 msgstr ""
 
-#: product-visibility-by-country-for-woocommerce.php:182
+#: product-visibility-by-country-for-woocommerce.php:189
 msgid "Product Visibility by Country Settings"
-msgstr ""
-
-#. Plugin Name of the plugin/theme
-msgid "Product Visibility by Country for WooCommerce"
 msgstr ""
 
 #. Plugin URI of the plugin/theme
