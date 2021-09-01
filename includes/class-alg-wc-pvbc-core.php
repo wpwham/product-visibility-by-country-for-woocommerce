@@ -2,9 +2,10 @@
 /**
  * Product Visibility by Country for WooCommerce - Core Class
  *
- * @version 1.3.2
+ * @version 1.4.7
  * @since   1.0.0
  * @author  Algoritmika Ltd.
+ * @author  WP Wham
  */
 
 if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
@@ -16,7 +17,7 @@ class Alg_WC_PVBC_Core {
 	/**
 	 * Constructor.
 	 *
-	 * @version 1.3.1
+	 * @version 1.4.7
 	 * @since   1.0.0
 	 * @todo    [dev] back-end: product terms: add fields to "add category/tag" pages also (i.e. not only to "edit" pages)
 	 * @todo    [dev] Export/Import: maybe add option to enable/disable these filters
@@ -105,8 +106,8 @@ class Alg_WC_PVBC_Core {
 	/**
 	 * Enqueue admin scripts.
 	 *
-	 * @version 1.x.x
-	 * @since   1.x.x
+	 * @version 1.4.7
+	 * @since   1.4.7
 	 */
 	public function enqueue_scripts_admin() {
 		

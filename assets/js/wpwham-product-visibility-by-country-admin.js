@@ -1,8 +1,8 @@
 /**
  * Product Visibility by Country for WooCommerce - admin scripts
  *
- * @version 1.x.x
- * @since   1.x.x
+ * @version 1.4.7
+ * @since   1.4.7
  * @author  WP Wham
  */
 

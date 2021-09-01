@@ -2,9 +2,10 @@
 /**
  * Product Visibility by Country for WooCommerce - Metaboxes
  *
- * @version 1.3.1
+ * @version 1.4.7
  * @since   1.0.0
  * @author  Algoritmika Ltd.
+ * @author  WP Wham
  */
 
 if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
@@ -44,7 +45,7 @@ class Alg_WC_PVBC_Metaboxes {
 	/**
 	 * display_pvbc_metabox.
 	 *
-	 * @version 1.1.0
+	 * @version 1.4.7
 	 * @since   1.0.0
 	 */
 	function display_pvbc_metabox() {
