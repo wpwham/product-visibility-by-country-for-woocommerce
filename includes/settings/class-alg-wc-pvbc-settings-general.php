@@ -45,6 +45,11 @@ class Alg_WC_PVBC_Settings_General extends Alg_WC_PVBC_Settings_Section {
 			array(
 				'title'    => __( 'Product Visibility by Country', 'product-visibility-by-country-for-woocommerce' ),
 				'desc'     => '<strong>' . __( 'Enable plugin', 'product-visibility-by-country-for-woocommerce' ) . '</strong>',
+				'desc_tip' =>
+					__( 'Product Visibility by Country for WooCommerce', 'product-visibility-by-country-for-woocommerce' )
+					. ' v' . WPWHAM_PRODUCT_VISIBILITY_BY_COUNTRY_VERSION . '.<br />'
+					. '<a href="https://wpwham.com/documentation/product-visibility-by-country-for-woocommerce/?utm_source=documentation_link&utm_campaign=free&utm_medium=product_visibility_country" target="_blank" class="button">' .
+					__( 'Documentation', 'product-visibility-by-country-for-woocommerce' ) . '</a>',
 				'id'       => 'alg_wc_pvbc_enabled',
 				'default'  => 'yes',
 				'type'     => 'checkbox',
