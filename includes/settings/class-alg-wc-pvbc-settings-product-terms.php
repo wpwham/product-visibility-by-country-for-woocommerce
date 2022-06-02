@@ -2,7 +2,7 @@
 /**
  * Product Visibility by Country for WooCommerce - Product Terms Section Settings
  *
- * @version 1.4.3
+ * @version 1.4.8
  * @since   1.2.0
  * @author  Algoritmika Ltd.
  * @author  WP Wham
@@ -29,7 +29,7 @@ class Alg_WC_PVBC_Settings_Product_Terms extends Alg_WC_PVBC_Settings_Section {
 	/**
 	 * get_settings.
 	 *
-	 * @version 1.4.3
+	 * @version 1.4.8
 	 * @since   1.2.0
 	 */
 	public static function get_settings() {
