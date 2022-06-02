@@ -2,7 +2,7 @@
 /**
  * Product Visibility by Country for WooCommerce - General Section Settings
  *
- * @version 1.4.7
+ * @version 1.4.8
  * @since   1.0.0
  * @author  Algoritmika Ltd.
  * @author  WP Wham
@@ -29,7 +29,7 @@ class Alg_WC_PVBC_Settings_General extends Alg_WC_PVBC_Settings_Section {
 	/**
 	 * get_settings.
 	 *
-	 * @version 1.4.7
+	 * @version 1.4.8
 	 * @since   1.0.0
 	 */
 	public static function get_settings() {
@@ -106,7 +106,7 @@ class Alg_WC_PVBC_Settings_General extends Alg_WC_PVBC_Settings_Section {
 				'desc'     => __( 'Redirect URL.', 'product-visibility-by-country-for-woocommerce' ) .
 					apply_filters( 'alg_wc_pvbc_settings', ' ' .
 						sprintf( 'You will need <a href="%s" target="_blank">Product Visibility by Country for WooCommerce Pro</a> plugin to customize redirect URL.',
-							'https://wpwham.com/products/product-visibility-by-country-for-woocommerce/' ) ),
+							'https://wpwham.com/products/product-visibility-by-country-for-woocommerce/?utm_source=settings_general_redirect_url&utm_campaign=free&utm_medium=product_visibility_country' ) ),
 				'id'       => 'alg_wc_pvbc_query_redirect_url',
 				'default'  => '',
 				'type'     => 'text',

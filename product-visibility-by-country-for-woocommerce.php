@@ -3,14 +3,14 @@
 Plugin Name: Product Visibility by Country for WooCommerce
 Plugin URI: https://wpwham.com/products/product-visibility-by-country-for-woocommerce/
 Description: Display WooCommerce products by customer's country.
-Version: 1.4.7
+Version: 1.4.8
 Author: WP Wham
 Author URI: https://wpwham.com/
 Text Domain: product-visibility-by-country-for-woocommerce
 Domain Path: /langs
 WC requires at least: 3.0
-WC tested up to: 5.6
-Copyright: © 2018-2021 WP Wham. All rights reserved.
+WC tested up to: 6.5
+Copyright: © 2018-2022 WP Wham. All rights reserved.
 License: GNU General Public License v3.0
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 */
@@ -20,7 +20,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-define( 'WPWHAM_PRODUCT_VISIBILITY_BY_COUNTRY_VERSION', '1.4.7' );
+define( 'WPWHAM_PRODUCT_VISIBILITY_BY_COUNTRY_VERSION', '1.4.8' );
 define( 'WPWHAM_PRODUCT_VISIBILITY_BY_COUNTRY_URL', untrailingslashit( plugin_dir_url( __FILE__ ) ) . '/' );
 
 if ( ! class_exists( 'Alg_WC_PVBC' ) ) :
@@ -29,7 +29,7 @@ if ( ! class_exists( 'Alg_WC_PVBC' ) ) :
  * Main Alg_WC_PVBC Class
  *
  * @class   Alg_WC_PVBC
- * @version 1.3.1
+ * @version 1.4.8
  * @since   1.0.0
  */
 final class Alg_WC_PVBC {
@@ -40,7 +40,7 @@ final class Alg_WC_PVBC {
 	 * @var   string
 	 * @since 1.0.0
 	 */
-	public $version = '1.4.7';
+	public $version = '1.4.8';
 
 	/**
 	 * @var   Alg_WC_PVBC The single instance of the class
@@ -150,7 +150,7 @@ final class Alg_WC_PVBC {
 	/**
 	 * Show action links on the plugin screen.
 	 *
-	 * @version 1.1.0
+	 * @version 1.4.8
 	 * @since   1.0.0
 	 * @param   mixed $links
 	 * @return  array
@@ -159,7 +159,7 @@ final class Alg_WC_PVBC {
 		$custom_links = array();
 		$custom_links[] = '<a href="' . admin_url( 'admin.php?page=wc-settings&tab=alg_wc_pvbc' ) . '">' . __( 'Settings', 'woocommerce' ) . '</a>';
 		if ( 'product-visibility-by-country-for-woocommerce.php' === basename( __FILE__ ) ) {
-			$custom_links[] = '<a href="https://wpwham.com/products/product-visibility-by-country-for-woocommerce/">' .
+			$custom_links[] = '<a href="https://wpwham.com/products/product-visibility-by-country-for-woocommerce/?utm_source=plugins_page&utm_campaign=free&utm_medium=product_visibility_country">' .
 				__( 'Unlock All', 'product-visibility-by-country-for-woocommerce' ) . '</a>';
 		}
 		return array_merge( $custom_links, $links );
