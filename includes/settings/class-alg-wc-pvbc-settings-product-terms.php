@@ -57,7 +57,7 @@ class Alg_WC_PVBC_Settings_Product_Terms extends Alg_WC_PVBC_Settings_Section {
 				'desc_tip' => __( 'Enable this if you want to be able to hide product <strong>categories</strong> and <strong>tags</strong>.', 'product-visibility-by-country-for-woocommerce' ) .
 					apply_filters( 'alg_wc_pvbc_settings', ' ' .
 						sprintf( 'You will need <a href="%s" target="_blank">Product Visibility by Country for WooCommerce Pro</a> plugin to hide product terms.',
-							'https://wpwham.com/products/product-visibility-by-country-for-woocommerce/' ) ),
+							'https://wpwham.com/products/product-visibility-by-country-for-woocommerce/?utm_source=settings_product_terms_hide&utm_campaign=free&utm_medium=product_visibility_country' ) ),
 				'desc'     => '<strong>' . __( 'Enable', 'product-visibility-by-country-for-woocommerce' ) . '</strong>',
 				'id'       => 'alg_wc_pvbc_product_terms',
 				'default'  => 'no',

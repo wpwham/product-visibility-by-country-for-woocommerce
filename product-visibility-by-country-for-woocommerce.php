@@ -159,7 +159,7 @@ final class Alg_WC_PVBC {
 		$custom_links = array();
 		$custom_links[] = '<a href="' . admin_url( 'admin.php?page=wc-settings&tab=alg_wc_pvbc' ) . '">' . __( 'Settings', 'woocommerce' ) . '</a>';
 		if ( 'product-visibility-by-country-for-woocommerce.php' === basename( __FILE__ ) ) {
-			$custom_links[] = '<a href="https://wpwham.com/products/product-visibility-by-country-for-woocommerce/">' .
+			$custom_links[] = '<a href="https://wpwham.com/products/product-visibility-by-country-for-woocommerce/?utm_source=plugins_page&utm_campaign=free&utm_medium=product_visibility_country">' .
 				__( 'Unlock All', 'product-visibility-by-country-for-woocommerce' ) . '</a>';
 		}
 		return array_merge( $custom_links, $links );
