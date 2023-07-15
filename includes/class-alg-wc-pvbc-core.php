@@ -13,7 +13,10 @@ if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 if ( ! class_exists( 'Alg_WC_PVBC_Core' ) ) :
 
 class Alg_WC_PVBC_Core {
-
+	
+	public $is_wc_version_below_3 = null;
+	public $is_debug              = '';
+	
 	/**
 	 * Constructor.
 	 *

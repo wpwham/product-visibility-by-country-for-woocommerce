@@ -33,7 +33,9 @@ if ( ! class_exists( 'Alg_WC_PVBC' ) ) :
  * @since   1.0.0
  */
 final class Alg_WC_PVBC {
-
+	
+	public $core = null;
+	
 	/**
 	 * Plugin version.
 	 *
