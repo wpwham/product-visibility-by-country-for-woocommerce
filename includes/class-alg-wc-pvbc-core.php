@@ -2,7 +2,7 @@
 /**
  * Product Visibility by Country for WooCommerce - Core Class
  *
- * @version 1.4.7
+ * @version 1.4.9
  * @since   1.0.0
  * @author  Algoritmika Ltd.
  * @author  WP Wham

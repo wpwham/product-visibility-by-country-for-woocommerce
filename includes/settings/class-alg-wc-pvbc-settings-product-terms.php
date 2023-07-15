@@ -2,7 +2,7 @@
 /**
  * Product Visibility by Country for WooCommerce - Product Terms Section Settings
  *
- * @version 1.4.8
+ * @version 1.4.9
  * @since   1.2.0
  * @author  Algoritmika Ltd.
  * @author  WP Wham

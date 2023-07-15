@@ -2,7 +2,7 @@
 /**
  * Product Visibility by Country for WooCommerce - General Section Settings
  *
- * @version 1.4.8
+ * @version 1.4.9
  * @since   1.0.0
  * @author  Algoritmika Ltd.
  * @author  WP Wham

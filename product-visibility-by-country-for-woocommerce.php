@@ -3,14 +3,14 @@
 Plugin Name: Product Visibility by Country for WooCommerce
 Plugin URI: https://wpwham.com/products/product-visibility-by-country-for-woocommerce/
 Description: Display WooCommerce products by customer's country.
-Version: 1.4.8
+Version: 1.4.9
 Author: WP Wham
 Author URI: https://wpwham.com/
 Text Domain: product-visibility-by-country-for-woocommerce
 Domain Path: /langs
 WC requires at least: 3.0
-WC tested up to: 6.5
-Copyright: © 2018-2022 WP Wham. All rights reserved.
+WC tested up to: 7.8
+Copyright: © 2018-2023 WP Wham. All rights reserved.
 License: GNU General Public License v3.0
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 */
@@ -20,7 +20,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-define( 'WPWHAM_PRODUCT_VISIBILITY_BY_COUNTRY_VERSION', '1.4.8' );
+define( 'WPWHAM_PRODUCT_VISIBILITY_BY_COUNTRY_VERSION', '1.4.9' );
 define( 'WPWHAM_PRODUCT_VISIBILITY_BY_COUNTRY_URL', untrailingslashit( plugin_dir_url( __FILE__ ) ) . '/' );
 
 if ( ! class_exists( 'Alg_WC_PVBC' ) ) :
@@ -29,7 +29,7 @@ if ( ! class_exists( 'Alg_WC_PVBC' ) ) :
  * Main Alg_WC_PVBC Class
  *
  * @class   Alg_WC_PVBC
- * @version 1.4.8
+ * @version 1.4.9
  * @since   1.0.0
  */
 final class Alg_WC_PVBC {
@@ -42,7 +42,7 @@ final class Alg_WC_PVBC {
 	 * @var   string
 	 * @since 1.0.0
 	 */
-	public $version = '1.4.8';
+	public $version = '1.4.9';
 
 	/**
 	 * @var   Alg_WC_PVBC The single instance of the class
