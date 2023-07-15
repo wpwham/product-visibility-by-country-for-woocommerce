@@ -2,7 +2,7 @@
 /**
  * Product Visibility by Country for WooCommerce - Admin Section Settings
  *
- * @version 1.4.3
+ * @version 1.4.9
  * @since   1.2.0
  * @author  Algoritmika Ltd.
  * @author  WP Wham
@@ -13,7 +13,10 @@ if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 if ( ! class_exists( 'Alg_WC_PVBC_Settings_Admin' ) ) :
 
 class Alg_WC_PVBC_Settings_Admin extends Alg_WC_PVBC_Settings_Section {
-
+	
+	public $id   = '';
+	public $desc = '';
+	
 	/**
 	 * Constructor.
 	 *

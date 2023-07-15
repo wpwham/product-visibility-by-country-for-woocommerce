@@ -2,7 +2,7 @@
 /**
  * Product Visibility by Country for WooCommerce - Core Class
  *
- * @version 1.4.7
+ * @version 1.4.9
  * @since   1.0.0
  * @author  Algoritmika Ltd.
  * @author  WP Wham
@@ -13,7 +13,10 @@ if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 if ( ! class_exists( 'Alg_WC_PVBC_Core' ) ) :
 
 class Alg_WC_PVBC_Core {
-
+	
+	public $is_wc_version_below_3 = null;
+	public $is_debug              = '';
+	
 	/**
 	 * Constructor.
 	 *
