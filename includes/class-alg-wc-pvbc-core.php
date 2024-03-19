@@ -228,7 +228,7 @@ class Alg_WC_PVBC_Core {
 	 */
 	function product_by_country_price_html( $price_html, $product ) {
 		return ( ! $this->is_product_visible( $this->get_product_id_or_variation_parent_id( $product ), $this->get_country_by_ip() ) ?
-			( '' != ( $content = get_option( 'alg_wc_pvbc_hide_price_content', '' ) ) ? do_shortcode( $content ) : '' ) : $price_html );
+			( '' != ( $content = get_option( 'alg_wc_pvbc_hide_price_content', '' ) ) ? wp_kses_post( do_shortcode( $content ) ) : '' ) : $price_html );
 	}
 
 	/**
@@ -272,8 +272,8 @@ class Alg_WC_PVBC_Core {
 	 */
 	function output_message( $view ) {
 		if ( ! $this->is_product_visible( get_the_ID(), $this->get_country_by_ip() ) ) {
-			echo do_shortcode( get_option( 'alg_wc_pvbc_info_on_' . $view . '_content',
-				'<p><strong>' . __( 'The product is not available in your country.', 'product-visibility-by-country-for-woocommerce' ) . '</strong></p>' ) );
+			echo wp_kses_post( do_shortcode( get_option( 'alg_wc_pvbc_info_on_' . $view . '_content',
+				'<p><strong>' . __( 'The product is not available in your country.', 'product-visibility-by-country-for-woocommerce' ) . '</strong></p>' ) ) );
 		}
 	}
 
