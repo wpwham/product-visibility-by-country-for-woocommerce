@@ -136,28 +136,6 @@ final class Alg_WC_PVBC {
 	}
 
 	/**
-	 * admin.
-	 *
-	 * @version 1.4.3
-	 * @since   1.1.0
-	 */
-	function admin() {
-		// Admin functions
-		require_once( 'includes/alg-wc-pvbc-admin-functions.php' );
-		// Action links
-		add_filter( 'plugin_action_links_' . plugin_basename( __FILE__ ), array( $this, 'action_links' ) );
-		// Meta boxes
-		require_once( 'includes/settings/class-alg-wc-pvbc-metaboxes.php' );
-		// Settings
-		add_filter( 'woocommerce_get_settings_pages', array( $this, 'add_woocommerce_settings_tab' ) );
-		add_action( 'woocommerce_system_status_report', array( $this, 'add_settings_to_status_report' ) );
-		// Version update
-		if ( get_option( 'alg_wc_pvbc_version', '' ) !== $this->version ) {
-			add_action( 'admin_init', array( $this, 'version_updated' ) );
-		}
-	}
-
-	/**
 	 * Show action links on the plugin screen.
 	 *
 	 * @version 1.4.8
