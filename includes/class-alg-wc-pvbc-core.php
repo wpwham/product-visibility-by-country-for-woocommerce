@@ -343,7 +343,7 @@ class Alg_WC_PVBC_Core {
 	 */
 	function maybe_add_eu_countries( $countries ) {
 		return ( ! empty( $countries ) && is_array( $countries ) && in_array( 'EU', $countries ) ?
-			array_merge( $countries, array( 'AT', 'BE', 'BG', 'CY', 'CZ', 'DE', 'DK', 'EE', 'ES', 'FI', 'FR', 'GB', 'GR', 'HU', 'HR', 'IE', 'IT', 'LT', 'LU', 'LV',
+			array_merge( $countries, array( 'AT', 'BE', 'BG', 'CY', 'CZ', 'DE', 'DK', 'EE', 'ES', 'FI', 'FR', 'GR', 'HU', 'HR', 'IE', 'IT', 'LT', 'LU', 'LV',
 				'MT', 'NL', 'PL', 'PT', 'RO', 'SE', 'SI', 'SK' ) ) :
 			$countries
 		);
