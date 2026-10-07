@@ -2,7 +2,7 @@
 /**
  * Product Visibility by Country for WooCommerce - Core Class
  *
- * @version 1.4.9
+ * @version 1.4.10
  * @since   1.0.0
  * @author  Algoritmika Ltd.
  * @author  WP Wham
@@ -223,7 +223,7 @@ class Alg_WC_PVBC_Core {
 	/**
 	 * product_by_country_price_html.
 	 *
-	 * @version 1.1.5
+	 * @version 1.4.10
 	 * @since   1.1.5
 	 */
 	function product_by_country_price_html( $price_html, $product ) {
@@ -264,7 +264,7 @@ class Alg_WC_PVBC_Core {
 	/**
 	 * output_message.
 	 *
-	 * @version 1.1.4
+	 * @version 1.4.10
 	 * @since   1.1.4
 	 * @todo    [feature] terms?
 	 * @todo    [feature] position & priority
@@ -338,7 +338,7 @@ class Alg_WC_PVBC_Core {
 	/**
 	 * maybe_add_eu_countries.
 	 *
-	 * @version 1.1.2
+	 * @version 1.4.10
 	 * @since   1.1.2
 	 */
 	function maybe_add_eu_countries( $countries ) {
