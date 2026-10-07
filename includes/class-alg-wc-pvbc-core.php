@@ -2,7 +2,7 @@
 /**
  * Product Visibility by Country for WooCommerce - Core Class
  *
- * @version 1.4.9
+ * @version 1.4.10
  * @since   1.0.0
  * @author  Algoritmika Ltd.
  * @author  WP Wham
@@ -223,12 +223,12 @@ class Alg_WC_PVBC_Core {
 	/**
 	 * product_by_country_price_html.
 	 *
-	 * @version 1.1.5
+	 * @version 1.4.10
 	 * @since   1.1.5
 	 */
 	function product_by_country_price_html( $price_html, $product ) {
 		return ( ! $this->is_product_visible( $this->get_product_id_or_variation_parent_id( $product ), $this->get_country_by_ip() ) ?
-			( '' != ( $content = get_option( 'alg_wc_pvbc_hide_price_content', '' ) ) ? do_shortcode( $content ) : '' ) : $price_html );
+			( '' != ( $content = get_option( 'alg_wc_pvbc_hide_price_content', '' ) ) ? wp_kses_post( do_shortcode( $content ) ) : '' ) : $price_html );
 	}
 
 	/**
@@ -264,7 +264,7 @@ class Alg_WC_PVBC_Core {
 	/**
 	 * output_message.
 	 *
-	 * @version 1.1.4
+	 * @version 1.4.10
 	 * @since   1.1.4
 	 * @todo    [feature] terms?
 	 * @todo    [feature] position & priority
@@ -272,8 +272,8 @@ class Alg_WC_PVBC_Core {
 	 */
 	function output_message( $view ) {
 		if ( ! $this->is_product_visible( get_the_ID(), $this->get_country_by_ip() ) ) {
-			echo do_shortcode( get_option( 'alg_wc_pvbc_info_on_' . $view . '_content',
-				'<p><strong>' . __( 'The product is not available in your country.', 'product-visibility-by-country-for-woocommerce' ) . '</strong></p>' ) );
+			echo wp_kses_post( do_shortcode( get_option( 'alg_wc_pvbc_info_on_' . $view . '_content',
+				'<p><strong>' . __( 'The product is not available in your country.', 'product-visibility-by-country-for-woocommerce' ) . '</strong></p>' ) ) );
 		}
 	}
 
@@ -338,12 +338,12 @@ class Alg_WC_PVBC_Core {
 	/**
 	 * maybe_add_eu_countries.
 	 *
-	 * @version 1.1.2
+	 * @version 1.4.10
 	 * @since   1.1.2
 	 */
 	function maybe_add_eu_countries( $countries ) {
 		return ( ! empty( $countries ) && is_array( $countries ) && in_array( 'EU', $countries ) ?
-			array_merge( $countries, array( 'AT', 'BE', 'BG', 'CY', 'CZ', 'DE', 'DK', 'EE', 'ES', 'FI', 'FR', 'GB', 'GR', 'HU', 'HR', 'IE', 'IT', 'LT', 'LU', 'LV',
+			array_merge( $countries, array( 'AT', 'BE', 'BG', 'CY', 'CZ', 'DE', 'DK', 'EE', 'ES', 'FI', 'FR', 'GR', 'HU', 'HR', 'IE', 'IT', 'LT', 'LU', 'LV',
 				'MT', 'NL', 'PL', 'PT', 'RO', 'SE', 'SI', 'SK' ) ) :
 			$countries
 		);
