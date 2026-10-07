@@ -3,14 +3,12 @@
 Plugin Name: Product Visibility by Country for WooCommerce
 Plugin URI: https://wpwham.com/products/product-visibility-by-country-for-woocommerce/
 Description: Display WooCommerce products by customer's country.
-Version: 1.4.9
+Version: 1.4.10
 Author: WP Wham
 Author URI: https://wpwham.com/
 Text Domain: product-visibility-by-country-for-woocommerce
 Domain Path: /langs
-WC requires at least: 3.0
-WC tested up to: 7.8
-Copyright: © 2018-2023 WP Wham. All rights reserved.
+Copyright: Â© 2018-2026 WP Wham. All rights reserved.
 License: GNU General Public License v3.0
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 */
@@ -20,7 +18,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-define( 'WPWHAM_PRODUCT_VISIBILITY_BY_COUNTRY_VERSION', '1.4.9' );
+define( 'WPWHAM_PRODUCT_VISIBILITY_BY_COUNTRY_VERSION', '1.4.10' );
 define( 'WPWHAM_PRODUCT_VISIBILITY_BY_COUNTRY_URL', untrailingslashit( plugin_dir_url( __FILE__ ) ) . '/' );
 
 if ( ! class_exists( 'Alg_WC_PVBC' ) ) :
@@ -29,7 +27,7 @@ if ( ! class_exists( 'Alg_WC_PVBC' ) ) :
  * Main Alg_WC_PVBC Class
  *
  * @class   Alg_WC_PVBC
- * @version 1.4.9
+ * @version 1.4.10
  * @since   1.0.0
  */
 final class Alg_WC_PVBC {
@@ -42,7 +40,7 @@ final class Alg_WC_PVBC {
 	 * @var   string
 	 * @since 1.0.0
 	 */
-	public $version = '1.4.9';
+	public $version = '1.4.10';
 
 	/**
 	 * @var   Alg_WC_PVBC The single instance of the class
@@ -70,11 +68,11 @@ final class Alg_WC_PVBC {
 	/**
 	 * Alg_WC_PVBC Constructor.
 	 *
-	 * @version 1.3.0
+	 * @version 1.4.10
 	 * @since   1.0.0
 	 * @access  public
 	 */
-	function __construct() {
+	public function __construct() {
 
 		// Check for active plugins
 		if (
@@ -84,20 +82,17 @@ final class Alg_WC_PVBC {
 			return;
 		}
 
-		// Set up localisation
-		load_plugin_textdomain( 'product-visibility-by-country-for-woocommerce', false, dirname( plugin_basename( __FILE__ ) ) . '/langs/' );
-
-		// Pro
-		if ( 'product-visibility-by-country-for-woocommerce-pro.php' === basename( __FILE__ ) ) {
-			require_once( 'includes/pro/class-alg-wc-pvbc-pro.php' );
-		}
-
 		// Include required files
-		$this->includes();
+		add_action( 'init', array( $this, 'includes' ) );
 
 		// Admin
-		if ( is_admin() ) {
-			$this->admin();
+		add_filter( 'plugin_action_links_' . plugin_basename( __FILE__ ), array( $this, 'action_links' ) );
+		add_filter( 'woocommerce_get_settings_pages', array( $this, 'add_woocommerce_settings_tab' ) );
+		add_action( 'woocommerce_system_status_report', array( $this, 'add_settings_to_status_report' ) );
+
+		// Updates
+		if ( get_option( 'alg_wc_pvbc_version', '' ) !== $this->version ) {
+			add_action( 'admin_init', array( $this, 'version_updated' ) );
 		}
 	}
 
@@ -119,33 +114,22 @@ final class Alg_WC_PVBC {
 	/**
 	 * Include required core files used in admin and on the frontend.
 	 *
-	 * @version 1.1.0
+	 * @version 1.4.10
 	 * @since   1.0.0
 	 */
-	function includes() {
+	public function includes() {
+		// Localization
+		load_plugin_textdomain( 'product-visibility-by-country-for-woocommerce', false, dirname( plugin_basename( __FILE__ ) ) . '/langs/' );
+		// Pro
+		if ( 'product-visibility-by-country-for-woocommerce-pro.php' === basename( __FILE__ ) ) {
+			require_once( 'includes/pro/class-alg-wc-pvbc-pro.php' );
+		}
 		// Core
 		$this->core = require_once( 'includes/class-alg-wc-pvbc-core.php' );
-	}
-
-	/**
-	 * admin.
-	 *
-	 * @version 1.4.3
-	 * @since   1.1.0
-	 */
-	function admin() {
-		// Admin functions
-		require_once( 'includes/alg-wc-pvbc-admin-functions.php' );
-		// Action links
-		add_filter( 'plugin_action_links_' . plugin_basename( __FILE__ ), array( $this, 'action_links' ) );
-		// Meta boxes
-		require_once( 'includes/settings/class-alg-wc-pvbc-metaboxes.php' );
-		// Settings
-		add_filter( 'woocommerce_get_settings_pages', array( $this, 'add_woocommerce_settings_tab' ) );
-		add_action( 'woocommerce_system_status_report', array( $this, 'add_settings_to_status_report' ) );
-		// Version update
-		if ( get_option( 'alg_wc_pvbc_version', '' ) !== $this->version ) {
-			add_action( 'admin_init', array( $this, 'version_updated' ) );
+		// Admin
+		if ( is_admin() ) {
+			require_once( 'includes/alg-wc-pvbc-admin-functions.php' );
+			require_once( 'includes/settings/class-alg-wc-pvbc-metaboxes.php' );
 		}
 	}
 
