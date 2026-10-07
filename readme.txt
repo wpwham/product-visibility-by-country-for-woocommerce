@@ -3,7 +3,7 @@ Contributors: wpwham
 Tags: woocommerce, product, visibility, country, woo commerce
 Requires at least: 4.4
 Tested up to: 7.1
-Stable tag: 1.4.10
+Stable tag: 1.4.11
 License: GNU General Public License v3.0
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -41,6 +41,9 @@ There are options in plugin to hide products by:
 3. Start by visiting plugin settings at "WooCommerce > Settings > Product Visibility by Country".
 
 == Changelog ==
+
+= 1.4.11 - 2026-10-07 =
+* UPDATE: add HPOS declaration.
 
 = 1.4.10 - 2026-09-24 =
 * UPDATE: remove United Kingdom from EU countries setting.
