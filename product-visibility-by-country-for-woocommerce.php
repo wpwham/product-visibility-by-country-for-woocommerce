@@ -136,6 +136,7 @@ final class Alg_WC_PVBC {
 		if ( is_admin() ) {
 			require_once( 'includes/alg-wc-pvbc-admin-functions.php' );
 			require_once( 'includes/settings/class-alg-wc-pvbc-metaboxes.php' );
+			require_once( 'includes/class-wpwham-product-visibility-by-country-review.php' );
 		}
 	}
 
